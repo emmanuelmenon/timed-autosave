@@ -1,7 +1,7 @@
 {
     "name": "timed-autosave",
     "main": "./lib/timed-autosave",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Autosaves the active window every x minutes.",
     "keywords": [
         "autosave",
