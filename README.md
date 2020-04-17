@@ -1,5 +1,5 @@
 # Timed Autosave
-All it takes is one line of code: `setInterval(atom.workspace.observeActivePaneItem(editor => {Promise.resolve(editor.save()).then(() => console.log('Saved')).catch((error) => console.log(error));}), saveTime * 60000);`
+All it takes is one line of code: `atom.workspace.observeTextEditors(editor => {Promise.resolve(editor.save()).then(() => atom.notifications.addSuccess("Saved!")).catch((error) =atom.notifications.addError(error));});`
 
 **So why did it take me 90 minutes to make this thing work?**
 
