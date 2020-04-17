@@ -1,0 +1,23 @@
+{
+    "name":"timed-autosave",
+    "main":"./lib/timed-autosave",
+    "version":"0.1.0",
+    "description":"Autosaves the active window every x minutes.",
+    "keywords":[
+        "autosave",
+        "useful?",
+        "timer",
+        "configurable"
+    ],
+    "activationCommands":{
+        "atom-workspace":"timed-autosave:toggle"
+    },
+    "repository":"https://github.com/emmanuelmenon/timed-autosave",
+    "license":"MIT",
+    "engines":{
+        "atom":">=1.0.0 <2.0.0"
+    },
+    "dependencies":{
+
+    }
+}

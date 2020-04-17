@@ -1,0 +1,26 @@
+{
+    "context-menu":{
+        "atom-text-editor":[
+            {
+                "label":"Toggle timed-autosave",
+                "command":"timed-autosave:toggle"
+            }
+        ]
+    },
+    "menu":[
+        {
+            "label":"Packages",
+            "submenu":[
+                {
+                    "label":"Timed Autosave",
+                    "submenu":[
+                        {
+                            "label":"Toggle On/Off",
+                            "command":"timed-autosave:toggle"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
