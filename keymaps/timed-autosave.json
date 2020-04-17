@@ -1,5 +1,5 @@
 {
     "atom-workspace":{
-        "ctrl-alt-s":"timed-autosave:toggle"
+        "ctrl-alt-s":"timed-autosave:mainFunc"
     }
 }

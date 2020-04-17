@@ -9,9 +9,6 @@
         "timer",
         "configurable"
     ],
-    "activationCommands": {
-        "atom-workspace": "timed-autosave:toggle"
-    },
     "repository": "https://github.com/emmanuelmenon/timed-autosave",
     "license": "MIT",
     "engines": {
