@@ -1,12 +1,8 @@
 # Timed Autosave
-All it takes is one line of code: `atom.workspace.observeTextEditors(editor => {Promise.resolve(editor.save()).then(() => atom.notifications.addSuccess("Saved!")).catch((error) =atom.notifications.addError(error));});`
-
-**So why did it take me 90 minutes to make this thing work?**
-
-# Installation
+## Installation
 ```apm install timed-autosave```
 
-# License
+## License
 ```
 Copyright (c) 2020 Emmanuel Menon
 
